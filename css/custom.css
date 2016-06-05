@@ -1,0 +1,183 @@
+body {
+    font-family: "Montserrat-Bold", sans-serif;
+    height: 100%;
+    position: relative;
+}
+
+.jumbotron {
+    background: url(../images/otaru.jpg) no-repeat center 15%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 780px;
+    padding-top: 25%;
+    padding-bottom: 20%;
+    color: #444444;
+    margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+    background-color: transparent;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+
+.custom-nav .navbar-brand {
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+    color: #444444;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-nav .navbar-brand:hover, .custom-nav .navbar-brand:focus {
+    color: #222222;
+}
+
+.custom-nav-button {
+    border: none;
+}
+
+div#custom-nav-menu.navbar-collapse {
+    border: none;
+}
+
+.custom-nav li {
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+}
+
+.custom-nav a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.custom-nav a:hover, .custom-nav a:focus {
+    color: #222222;
+    text-decoration: none;
+}
+
+.navbar-toggle .collapsed span {
+    color: #E74C3C;
+}
+
+/* Scrolled */
+
+.scrolled .navbar-fixed-top {
+    background-color: #2C3E50;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header .container {
+    padding-top: 10px;
+}
+
+.scrolled .custom-nav .navbar-brand {
+    color: #ECF0F1;
+}
+
+.scrolled .custom-nav .navbar-brand:hover, .custom-nav .navbar-brand:focus {
+    color: #E74C3C;
+}
+
+.scrolled .custom-nav a {
+    color: #ECF0F1;
+}
+
+.scrolled .custom-nav a:hover, .custom-nav a:focus, .scrolled .custom-nav a:focus {
+    color: #E74C3C;
+}
+
+
+
+/* Supporting */
+
+.supporting {
+    height: 100px;
+    background-color: #E74C3C;
+}
+
+/* Main */
+
+.main {
+    background-color: #ECF0F1;
+    color: #444444;
+}
+
+.main p {
+    font-family: "Merriweather", serif;
+}
+
+.main .container .row div {
+    padding: 10% 5% 10% 5%;
+}
+
+/*.main p:nth-child(2):first-letter {
+    float: left;
+    font-size: 50px;
+    line-height: 40px;
+    padding-right: 5px;
+}
+*/
+
+#profile div {
+    padding: 30px 30px 30px 30px;
+}
+
+#profile .img-responsive {
+    margin: 0 auto;
+} 
+
+.img-thumbnail {
+    padding: 10px 10px 10px 10px;
+}
+
+/* Footer */ 
+
+.footer {
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: #E74C3C;
+    color: #ECF0F1;
+}
+
+#social div:first-child {
+    text-align: left;
+}
+
+#social div:nth-child(2) {
+    text-align: center;
+}
+
+#social div:nth-child(3) {
+    text-align: right;
+}
+
+.footer a {
+    color: #ECF0F1;
+}
+
+.footer a:hover, .footer a:focus {
+    color: #2C3E50;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
