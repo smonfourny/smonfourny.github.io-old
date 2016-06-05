@@ -17,6 +17,10 @@ body {
     margin-bottom: 0;
 }
 
+.jumbotron h1 {
+    line-height: 3;
+}
+
 .navbar-fixed-top {
     background-color: transparent;
     border-bottom: none;
@@ -26,28 +30,34 @@ body {
 }
 
 .custom-nav .navbar-brand {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 0;
     font-size: 24px;
     color: #444444;
     text-decoration: none;
     font-weight: bold;
+    margin-right: 0;
+    float: left;
 }
 
 .custom-nav .navbar-brand:hover, .custom-nav .navbar-brand:focus {
     color: #222222;
 }
 
-.custom-nav-button {
+div#custom-nav-menu {
     border: none;
 }
 
-div#custom-nav-menu.navbar-collapse {
+div#custom-nav-menu.navbar-collapse.collapse.in{
+    clear: left;
+}
+
+button.navbar-toggle.collapsed.custom-nav-button {
     border: none;
 }
 
 .custom-nav li {
     display: inline-block;
-    padding: 10px 10px 0 10px;
+    padding: 10px 0.2em 0 0.2em;
 }
 
 .custom-nav a {
@@ -62,6 +72,12 @@ div#custom-nav-menu.navbar-collapse {
 
 .navbar-toggle .collapsed span {
     color: #E74C3C;
+}
+
+.scrolled .navbar-toggle .collapsed {
+    background-color: #2C3E50;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Scrolled */
