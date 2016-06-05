@@ -97,8 +97,23 @@ div#custom-nav-menu.navbar-collapse {
 /* Supporting */
 
 .supporting {
-    height: 100px;
-    background-color: #E74C3C;
+    min-height: 780px;
+    background-color: #2980B9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ECF0F1;
+}
+
+.supporting .container .row div {
+    padding: 10% 5% 10% 5%;
+}
+
+#education div {
+    padding-bottom: 0;
+}
+
+#skills div {
+    padding-top: 10%;
 }
 
 /* Main */
@@ -110,6 +125,14 @@ div#custom-nav-menu.navbar-collapse {
 
 .main p {
     font-family: "Merriweather", serif;
+}
+
+.main h2 {
+    padding-bottom: 10px;
+}
+
+.main h3 {
+    padding-bottom: 5px;
 }
 
 .main .container .row div {
@@ -165,6 +188,7 @@ div#custom-nav-menu.navbar-collapse {
 
 .footer a:hover, .footer a:focus {
     color: #2C3E50;
+    text-decoration: none;
 }
 
 @font-face {
