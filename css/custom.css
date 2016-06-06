@@ -122,6 +122,10 @@ div#education {
     padding-bottom: 0;
 }
 
+#education h2 {
+    padding-top: 5%;
+}
+
 div#skills {
     padding-top: 10%;
 }
@@ -187,6 +191,10 @@ button.btn.form-button {
 
 button.btn.form-button:hover, button.btn.form-button:focus {
     background-color: #2C3E50;
+}
+
+#projects h2 {
+    padding-top: 10%;
 }
 
 /* Footer */ 
