@@ -180,6 +180,15 @@ div.supporting>div.container>div.row.padded-row {
     padding: 10px 10px 10px 10px;
 }
 
+button.btn.form-button {
+    color: #ECF0F1;
+    background-color: #2980B9;
+}
+
+button.btn.form-button:hover, button.btn.form-button:focus {
+    background-color: #2C3E50;
+}
+
 /* Footer */ 
 
 .footer {
