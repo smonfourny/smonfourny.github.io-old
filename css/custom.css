@@ -243,3 +243,9 @@ button.btn.form-button:hover, button.btn.form-button:focus {
     font-family: "Montserrat";
     src: url(../fonts/Montserrat-Regular.ttf);
 }
+
+@media (max-width: 768px) {
+    #social div:nth-child(2) {
+        text-align: right;
+    }
+}
