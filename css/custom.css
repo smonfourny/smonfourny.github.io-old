@@ -115,7 +115,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 .supporting {
     min-height: 780px;
     background-color: #BDE1E0;
-    color: #7E7E7C;
+    color: #444444;
 }
 
 div#education {
@@ -185,7 +185,7 @@ div.supporting>div.container>div.row.padded-row {
 }
 
 button.btn.form-button {
-    color: #ECF0F1;
+    color: #444444;
     background-color: #BDE1E0;
 }
 
