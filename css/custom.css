@@ -71,11 +71,11 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .navbar-toggle .collapsed span {
-    color: #E74C3C;
+    color: #DB786A;
 }
 
 .scrolled .navbar-toggle .collapsed {
-    background-color: #2C3E50;
+    background-color: #AACAC9;
     transition: all 0.5s;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -83,7 +83,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 /* Scrolled */
 
 .scrolled .navbar-fixed-top {
-    background-color: #2C3E50;
+    background-color: #AACAC9;
     transition: all 0.5s;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -97,7 +97,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .custom-nav .navbar-brand:hover, .custom-nav .navbar-brand:focus {
-    color: #E74C3C;
+    color: #DB786A;
 }
 
 .scrolled .custom-nav a {
@@ -105,7 +105,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .custom-nav a:hover, .custom-nav a:focus, .scrolled .custom-nav a:focus {
-    color: #E74C3C;
+    color: #DB786A;
 }
 
 
@@ -114,7 +114,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 
 .supporting {
     min-height: 780px;
-    background-color: #2980B9;
+    background-color: #BDE1E0;
     color: #ECF0F1;
 }
 
@@ -186,11 +186,11 @@ div.supporting>div.container>div.row.padded-row {
 
 button.btn.form-button {
     color: #ECF0F1;
-    background-color: #2980B9;
+    background-color: #BDE1E0;
 }
 
 button.btn.form-button:hover, button.btn.form-button:focus {
-    background-color: #2C3E50;
+    background-color: #AACAC9;
 }
 
 #projects h2 {
@@ -204,7 +204,7 @@ button.btn.form-button:hover, button.btn.form-button:focus {
     font-size: 10px;
     text-align: center;
     font-family: "Montserrat";
-    background-color: #E74C3C;
+    background-color: #DB786A;
     color: #ECF0F1;
 }
 
@@ -225,7 +225,7 @@ button.btn.form-button:hover, button.btn.form-button:focus {
 }
 
 .footer a:hover, .footer a:focus {
-    color: #2C3E50;
+    color: #AACAC9;
     text-decoration: none;
 }
 
