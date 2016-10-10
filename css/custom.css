@@ -93,7 +93,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .custom-nav .navbar-brand {
-    color: #ECF0F1;
+    color: #328396;
 }
 
 .scrolled .custom-nav .navbar-brand:hover, .custom-nav .navbar-brand:focus {
@@ -101,7 +101,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .custom-nav a {
-    color: #ECF0F1;
+    color: #328396;
 }
 
 .scrolled .custom-nav a:hover, .custom-nav a:focus, .scrolled .custom-nav a:focus {
@@ -115,7 +115,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 .supporting {
     min-height: 780px;
     background-color: #BDE1E0;
-    color: #DB786A;
+    color: #328396;
 }
 
 div#education {
@@ -185,7 +185,7 @@ div.supporting>div.container>div.row.padded-row {
 }
 
 button.btn.form-button {
-    color: #DB786A;
+    color: #328396;
     background-color: #BDE1E0;
 }
 
