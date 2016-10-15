@@ -197,6 +197,10 @@ button.btn.form-button:hover, button.btn.form-button:focus {
     padding-top: 10%;
 }
 
+.project {
+    padding-top: 5px;
+}
+
 /* Footer */ 
 
 .footer {
