@@ -75,7 +75,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .navbar-toggle .collapsed {
-    background-color: #AACAC9;
+    background-color: #3f3f3f;
     transition: all 0.5s;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -83,7 +83,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 /* Scrolled */
 
 .scrolled .navbar-fixed-top {
-    background-color: #AACAC9;
+    background-color: #3f3f3f;
     transition: all 0.5s;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -93,7 +93,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .custom-nav .navbar-brand {
-    color: #328396;
+    color: #eeeeee;
 }
 
 .scrolled .custom-nav .navbar-brand:hover, .custom-nav .navbar-brand:focus {
@@ -101,7 +101,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 }
 
 .scrolled .custom-nav a {
-    color: #328396;
+    color: #eeeeee;
 }
 
 .scrolled .custom-nav a:hover, .custom-nav a:focus, .scrolled .custom-nav a:focus {
@@ -114,8 +114,8 @@ button.navbar-toggle.collapsed.custom-nav-button {
 
 .supporting {
     min-height: 780px;
-    background-color: #BDE1E0;
-    color: #328396;
+    background-color: #c5e5d9;
+    color: #444444;
 }
 
 div#education {
@@ -133,7 +133,7 @@ div#skills {
 /* Main */
 
 .main {
-    background-color: #ECF0F1;
+    background-color: #fafdfc;
     color: #444444;
 }
 
@@ -185,12 +185,12 @@ div.supporting>div.container>div.row.padded-row {
 }
 
 button.btn.form-button {
-    color: #328396;
-    background-color: #BDE1E0;
+    color: #eeeeee;
+    background-color: #333333;
 }
 
 button.btn.form-button:hover, button.btn.form-button:focus {
-    background-color: #AACAC9;
+    color: #DB786A;
 }
 
 #projects h2 {
@@ -209,7 +209,7 @@ button.btn.form-button:hover, button.btn.form-button:focus {
     text-align: center;
     font-family: "Montserrat";
     background-color: #DB786A;
-    color: #ECF0F1;
+    color: #fafdfc;
 }
 
 #social div:first-child {
@@ -225,7 +225,7 @@ button.btn.form-button:hover, button.btn.form-button:focus {
 }
 
 .footer a {
-    color: #ECF0F1;
+    color: #fafdfc;
 }
 
 .footer a:hover, .footer a:focus {
