@@ -63,6 +63,8 @@ button.navbar-toggle.collapsed.custom-nav-button {
 .custom-nav a {
     color: #444444;
     text-decoration: none;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
 }
 
 .custom-nav a:hover, .custom-nav a:focus {
