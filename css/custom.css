@@ -130,6 +130,10 @@ div#skills {
     padding-top: 10%;
 }
 
+.supporting ul,li {
+    font-family: "Merriweather", serif;
+}
+
 /* Main */
 
 .main {
