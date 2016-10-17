@@ -218,6 +218,10 @@ button.btn.form-button:hover, button.btn.form-button:focus {
     color: #fafdfc;
 }
 
+.footer p {
+    font-family: "Montserrat";
+}
+
 #social div:first-child {
     text-align: left;
 }
