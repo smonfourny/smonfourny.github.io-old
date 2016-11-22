@@ -1,7 +1,11 @@
 body {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Merriweather", sans-serif;
     height: 100%;
     position: relative;
+}
+
+textarea, input {
+    font-family: "Inconsolata";
 }
 
 .jumbotron {
@@ -63,7 +67,7 @@ button.navbar-toggle.collapsed.custom-nav-button {
 .custom-nav a {
     color: #444444;
     text-decoration: none;
-    font-family: Montserrat-Bold;
+    font-family: "Merriweather";
     font-size: 14px;
 }
 
@@ -133,7 +137,7 @@ div#skills {
 }
 
 .supporting ul,li,p {
-    font-family: "Merriweather", serif;
+    font-family: "Inconsolata", serif;
 }
 
 /* Main */
@@ -144,7 +148,7 @@ div#skills {
 }
 
 .main p {
-    font-family: "Merriweather", serif;
+    font-family: "Inconsolata", serif;
 }
 
 .main h2 {
@@ -188,6 +192,7 @@ div.supporting>div.container>div.row.padded-row {
 
 .img-thumbnail {
     padding: 10px 10px 10px 10px;
+    float: right;
 }
 
 button.btn.form-button {
@@ -210,16 +215,16 @@ button.btn.form-button:hover, button.btn.form-button:focus {
 /* Footer */ 
 
 .footer {
-    padding-top: 10px;
-    font-size: 10px;
+    padding-top: 12px;
+    font-size: 12px;
     text-align: center;
-    font-family: "Montserrat";
+    font-family: "Inconsolata";
     background-color: #DB786A;
     color: #fafdfc;
 }
 
 .footer p {
-    font-family: "Montserrat";
+    font-family: "Inconsolata";
 }
 
 #social div:first-child {
@@ -246,6 +251,11 @@ button.btn.form-button:hover, button.btn.form-button:focus {
 @font-face {
     font-family: "Merriweather";
     src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url(../fonts/Inconsolata-Regular.ttf);
 }
 
 @font-face {
